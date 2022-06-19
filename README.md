@@ -16,12 +16,14 @@ Djoser 2.1.0
 ### Как запустить проект через Docker:
 Шаблон наполнения env-файла:
 ```
-SECRET_KEY = "***"
+SECRET_KEY = '***'
 
-DB_ENGINE = django.db.backends.postgresql
-DB_NAME = postgres
-POSTGRES_USER = postgres
-POSTGRES_PASSWORD = xxxyyyzzz
+ALLOWED_HOSTS = 'example1 example2 example3'
+
+DB_ENGINE = django.db.backends.exampledatebase
+DB_NAME = exampledatebase
+POSTGRES_USER = exampleuser
+POSTGRES_PASSWORD = examplepassword
 DB_HOST = db
 DB_PORT = 1234
 ```
